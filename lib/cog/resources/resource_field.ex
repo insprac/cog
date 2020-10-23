@@ -34,4 +34,5 @@ defmodule Cog.Resources.ResourceField do
       message: "may only contain letter, numbers and dots")
     |> unique_constraint(:name, name: :resource_fields_resource_id_name_index)
   end
+
 end
