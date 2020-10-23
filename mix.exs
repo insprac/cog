@@ -35,6 +35,9 @@ defmodule Cog.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:cony, "~> 0.2"},
+      {:absinthe, "~> 1.5"},
+      {:absinthe_plug, "~> 1.5"},
+      {:dataloader, "~> 1.0"},
     ]
   end
 
